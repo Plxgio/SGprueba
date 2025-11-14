@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S&G Enfermería - Servicios Profesionales de Cuidado</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="assets/icons/logo.png" alt="S&G Enfermería" width="100">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1>Cuidado profesional con compromiso humano</h1>
+          <p class="hero-subtitle">Somos un equipo de profesionales dedicados al acompañamiento, cuidado y rehabilitación domiciliaria de más alta calidad. Combinamos experiencia y profesionalismo para ofrecer un cuidado excepcional.</p>
+          
+          <div class="hero-buttons">
+            <a href="#servicios" class="btn btn-primary">Nuestros Servicios</a>
+            <a href="#contacto" class="btn btn-secondary">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="services">
+      <div class="container">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="service-grid">
+          <div class="service-card">
+            <h3>🩺 Curaciones</h3>
+            <p>Curaciones simples y complejas de heridas con técnicas especializadas</p>
+          </div>
+          <div class="service-card">
+            <h3>💉 Accesos Venosos</h3>
+            <p>Colocación de acceso venoso periférico profesional y segura</p>
+          </div>
+          <div class="service-card">
+            <h3>🚑 Procedimientos</h3>
+            <p>Colocación de sonda vesical y enemas evacuantes</p>
+          </div>
+          <div class="service-card">
+            <h3>🌙 Acompañamiento</h3>
+            <p>Acompañamientos nocturnos/diurnos hospitalarios y domiciliarios</p>
+          </div>
+          <div class="service-card">
+            <h3>🧼 Higiene y Confort</h3>
+            <p>Cuidado integral con enfoque en el bienestar del paciente</p>
+          </div>
+          <div class="service-card">
+            <h3>💊 Medicación</h3>
+            <p>Inyecciones y control de medicación especializada</p>
+          </div>
+          <div class="service-card highlight">
+            <h3>❤️ Cuidados Paliativos</h3>
+            <p>Atención compasiva y profesional en etapas especiales</p>
+          </div>
+          <div class="service-card">
+            <h3>📊 Seguimiento Continuo</h3>
+            <p>Monitoreo constante y evaluación del progreso del paciente</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="about">
+      <div class="container">
+        <h2 class="section-title">Profesionales en Cuidado de la Salud</h2>
+        <p>En S&G nos dedicamos a brindar atención médica especializada con calidez humana. Nuestro equipo de enfermeros profesionales cuenta con amplia experiencia en cuidados domiciliarios y hospitalarios, garantizando el bienestar y confort de cada paciente.</p>
+        <div class="features">
+          <div class="feature">
+            <h3>✅ Personal Certificado</h3>
+            <p>Enfermeros matriculados con formación continua</p>
+          </div>
+          <div class="feature">
+            <h3>🕒 Disponibilidad</h3>
+            <p>Atención programada y seguimiento continuo</p>
+          </div>
+          <div class="feature">
+            <h3>🏠 Servicio Domiciliario</h3>
+            <p>Cuidado profesional en la comodidad de su hogar</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="container">
+        <h2 class="section-title">Comunícate con nosotros</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Contacto Directo</h3>
+            <p><strong>📞 Teléfono:</strong> <a href="tel:+5491124994669">+54 9 11 2499-4669</a></p>
+            <p><strong>✉️ Email:</strong> <a href="mailto:sgenfermeras@gmail.com">sgenfermeras@gmail.com</a></p>
+            <p><strong>⏰ Horario:</strong> De 09hs a 20hs</p>
+            <p><strong>📍 Zonas de atención:</strong> Gran Buenos Aires, Zona Norte y CABA.</p>
+          </div>
+          <form action="enviar.php" method="POST" id="contactForm">
+    <div class="form-group">
+        <label for="name">Nombre completo</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="phone">Teléfono</label>
+        <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" placeholder="Escriba su mensaje..." required></textarea>
+    </div>
+    <button type="submit" class="btn">Enviar</button>  
+</form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="assets/icons/logo.png" alt="S&G Enfermería" width="100">
+        </div>
+        <div class="footer-info">
+          <p><strong>S&G Atención y cuidados domiciliarios</strong></p>
+          <p>Somos profesionales en cuidados geriátricos, intensivos y oncológicos.</p>
+          <p>📞 <a href="tel:+5491124994669">+54 9 11 2499-4669</a></p>
+          <p>✉️ <a href="mailto:sgenfermeras@gmail.com">sgenfermeras@gmail.com</a></p>
+        </div>
+      </div>
+      <p>&copy; 2025 S&G. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
